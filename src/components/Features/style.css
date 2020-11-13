@@ -1,0 +1,22 @@
+body {
+    overflow-x: hidden;
+}
+
+/* .h1-responsive.font-weight-bold.text-center.my-5 {
+    text-decoration: underline;
+} */
+
+.my-5 {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.font-weight-bold.mb-3 {
+    margin-top: 5%;
+}

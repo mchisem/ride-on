@@ -4,6 +4,11 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import { MDBIcon } from "mdbreact";
+import MediaObject from '../components/MediaObject';
+import Works from '../components/Works';
+import Features from '../components/Features';
+import Search from '../components/Search';
+import Footer from '../components/Footer';
 
 function Homepage() {
   return (
@@ -32,6 +37,11 @@ function Homepage() {
           </a>
         </p>
       </header>
+      <MediaObject></MediaObject>
+      <Works></Works>
+      <Features></Features>
+      <Search></Search>
+      <Footer></Footer>
     </div>
   );
 }
