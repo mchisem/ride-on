@@ -1,10 +1,8 @@
 import React from "react";
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'bootstrap-css-only/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
+// import 'mdbreact/dist/css/mdb.css';
 import MediaObject from '../components/MediaObject';
 import Works from '../components/Works';
-// import Features from '../components/Features';
+import Features from '../components/Features';
 // import Search from '../components/Search';
 // import Footer from '../components/Footer';
 import AppleIcon from '../components/AppleIcon';
@@ -24,6 +22,7 @@ function Homepage() {
       </header>
       <MediaObject></MediaObject>
       <Works></Works>
+      <Features></Features>
       {/* <Works></Works>
       <Features></Features>
       <Search></Search>
