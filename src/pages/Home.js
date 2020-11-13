@@ -7,7 +7,7 @@ import MediaObject from '../components/MediaObject';
 import Works from '../components/Works';
 import Features from '../components/Features';
 import Search from '../components/Search';
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 import '../App.css';
 
 function Homepage() {
@@ -25,7 +25,7 @@ function Homepage() {
       <Works></Works>
       <Features></Features>
       <Search></Search>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }
