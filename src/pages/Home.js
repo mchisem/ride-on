@@ -1,5 +1,4 @@
 import React from "react";
-import '../App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
@@ -9,6 +8,7 @@ import Works from '../components/Works';
 import Features from '../components/Features';
 import Search from '../components/Search';
 import Footer from '../components/Footer';
+import '../App.css';
 
 function Homepage() {
   return (
