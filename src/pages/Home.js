@@ -4,7 +4,7 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import MediaObject from '../components/MediaObject';
 import Works from '../components/Works';
 import Features from '../components/Features';
-// import Search from '../components/Search';
+import Search from '../components/Search';
 // import Footer from '../components/Footer';
 import AppleIcon from '../components/AppleIcon';
 import AndroidIcon from '../components/AndroidIcon';
@@ -24,6 +24,7 @@ function Homepage() {
       <MediaObject></MediaObject>
       <Works></Works>
       <Features></Features>
+      <Search></Search>
       {/* <Works></Works>
       <Features></Features>
       <Search></Search>
