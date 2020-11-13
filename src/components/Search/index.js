@@ -14,7 +14,7 @@ const SearchPage = () => {
             <h1>Ready for the Culture?</h1>
         </div>
         <br></br>
-        <div class="input-group">
+        <div className="input-group">
         <div className="input-group-prepend">
            <span className="input-group-text white">
             <MDBIcon className="text-black" icon="map-marker-alt" />
