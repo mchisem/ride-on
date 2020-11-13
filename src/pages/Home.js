@@ -1,13 +1,13 @@
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
+import AppleIcon from '../components/AppleIcon';
+import AndroidIcon from '../components/AndroidIcon';
 import MediaObject from '../components/MediaObject';
 import Works from '../components/Works';
 import Features from '../components/Features';
 import Search from '../components/Search';
-// import Footer from '../components/Footer';
-import AppleIcon from '../components/AppleIcon';
-import AndroidIcon from '../components/AndroidIcon';
+import Footer from '../components/Footer';
 import '../App.css';
 
 function Homepage() {
@@ -25,10 +25,7 @@ function Homepage() {
       <Works></Works>
       <Features></Features>
       <Search></Search>
-      {/* <Works></Works>
-      <Features></Features>
-      <Search></Search>
-      <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }

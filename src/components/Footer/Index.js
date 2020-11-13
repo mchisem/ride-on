@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { MDBContainer, MDBFooter } from "mdbreact";
 import './style.css';
 
 const FooterPage = () => {
@@ -22,7 +22,7 @@ const FooterPage = () => {
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
             <h3 style={{color:"orange"}}>BAM</h3>
-            &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> Black and Mild Mobile </a>
+            &copy; {new Date().getFullYear()} Copyright: <a href=""> Black and Mild Mobile </a>
             <br></br>
             <br></br>
             <div class="social text-center">
