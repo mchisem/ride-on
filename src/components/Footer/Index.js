@@ -19,7 +19,7 @@ const FooterPage = () => {
         </div>
 
       </MDBContainer>
-      <div className="footer-copyright text-center py-3">
+      {/* <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
             <h3 style={{color:"orange"}}>BAM</h3>
             &copy; {new Date().getFullYear()} Copyright: <a href=""> Black and Mild Mobile </a>
@@ -32,7 +32,7 @@ const FooterPage = () => {
                 <a className="mx-1" href="instagram.com"><i className="fab fa-instagram p-2 rounded rgba-white-light white-text"></i></a>
             </div>
         </MDBContainer>
-      </div>
+      </div> */}
     </MDBFooter>
   );
 }
