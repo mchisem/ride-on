@@ -65,5 +65,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchisem/ride-on.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mchisem/ride-on/issues"
+  },
+  "homepage": "https://github.com/mchisem/ride-on#readme"
 }
