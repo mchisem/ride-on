@@ -6,6 +6,7 @@ import MediaObject from '../components/MediaObject/index';
 import Works from '../components/Works/index';
 import Features from '../components/Features/index';
 import Search from '../components/Search/index';
+import Footer from "../components/Footer/index";
 
 function Homepage() {
   return (
@@ -15,6 +16,7 @@ function Homepage() {
       <Works></Works>
       <Features></Features>
       <Search></Search>
+      <Footer></Footer>
     </div>
   );
 }
