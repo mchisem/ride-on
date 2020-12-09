@@ -1,8 +1,9 @@
 import React from "react";
 import { MDBContainer, MDBFooter } from "mdbreact";
-import './style.css';
+import '../Footer/style.css';
 
-const FooterPage = () => {
+function FooterPage() {
+
   return (
     <MDBFooter color="black" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center">
