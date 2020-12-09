@@ -6,11 +6,10 @@ import MediaObject from '../components/MediaObject';
 import Works from '../components/Works';
 import Features from '../components/Features';
 import Search from '../components/Search';
-import '../App.css';
 
 function Homepage() {
   return (
-    <div className="App">
+    <div style={{textAlign:"center"}}>
       <Header></Header>
       <MediaObject></MediaObject>
       <Works></Works>
