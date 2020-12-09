@@ -1,6 +1,6 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBIcon } from "mdbreact";
-import './Works.css'
+import '../Works/Works.css';
 
 const FeaturesPage = () => {
   return (

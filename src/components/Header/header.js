@@ -1,8 +1,8 @@
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
-import AppleIcon from '../AppleIcon';
-import AndroidIcon from '../AndroidIcon';
+import AppleIcon from '../AppleIcon/index';
+import AndroidIcon from '../AndroidIcon/index';
 import '../Header/header.css';
 
 function HeaderDisplay() {

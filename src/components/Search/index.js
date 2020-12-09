@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBCol, MDBIcon } from "mdbreact";
-import './style.css'
+import '../Search/style.css';
 
 const SearchPage = () => {
   return (

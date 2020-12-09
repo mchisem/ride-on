@@ -2,7 +2,7 @@ import React from "react";
 import 'mdbreact/dist/css/mdb.css';
 import { MDBIcon } from "mdbreact";
 
-import './style.css'
+import '../AppleIcon/style.css';
 
 function AppleIcon() {
 
